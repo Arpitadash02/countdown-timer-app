@@ -19,10 +19,6 @@ A simple web-based countdown timer. Enter a future date and time, and the app wi
 
 No installation needed — just open `index.html` in a browser.
 
-## Live Demo
-
-[Click here to view the live demo](#) *(optional if you deploy it with GitHub Pages)*
-
 ## Screenshot
 <img width="1919" height="902" alt="Screenshot 2025-07-30 004739" src="https://github.com/user-attachments/assets/63ade807-2647-4e88-9b28-37961255fcf1" />
 
