@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    
+    <div class="input-section">
+        <label for="user-date">Enter Target Date:</label>
+        <input type="date" id="user-date"/>
+
+        <label for="user-time">Enter Target time:</label>
+        <input type="time" id="user-time"/>
+
+        <button onclick="startCountdown()">Start Countdown</button>
+
+    </div>
+
+    <div class="container">
+        <!-- TImer heading
+        day/min/hr/sec
+        progressHeading
+        progressbar -->
+        <h1>Countdown Timer</h1>
+
+        <div id="countdown">
+            <div>
+                <span id="days">00</span>
+                days
+            </div>
+            <div>
+                <span id="hours">00</span>
+                hrs
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                mins
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                secs
+            </div>
+        </div>
+
+        <h2>Progress:</h2>
+
+        <div class="progress-container">
+            <div id="progress-bar">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
